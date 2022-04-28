@@ -1,0 +1,51 @@
+/* =======================
+  General settings
+========================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =======================
+  Element selector settings
+========================== */
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2.2rem;
+}
+
+input {
+  width: 50%;
+  padding: 1.5%;
+  border-radius: 15px;
+  font-size: 1.6rem;
+  border: 3px solid #c3c3c3;
+}
+
+input[type='text']:focus {
+  border-color: lightskyblue;
+}
+
+/* =======================
+  Class selector settings
+========================== */
+
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+.gallery {
+  display: grid;
+  margin: auto;
+  max-width: 900px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
